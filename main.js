@@ -7,10 +7,12 @@ function createWindow () {
 
     win.webContents.openDevTools();
 
-    wn.on('closed', () => {
+    win.on('closed', () => {
         win = null;
     });
 }
+
+
 
 app.on('ready', createWindow);
 

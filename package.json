@@ -1,9 +1,11 @@
 {
+  //package config file
   "name": "electronpaint",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Painting with ElectronJS",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/andstu/electronpaint/issues"
   },
-  "homepage": "https://github.com/andstu/electronpaint#readme"
+  "homepage": "https://github.com/andstu/electronpaint#readme",
+  "devDependencies": {
+    "electron": "^2.0.9"
+  }
 }
