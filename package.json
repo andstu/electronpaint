@@ -1,5 +1,4 @@
 {
-  //package config file
   "name": "electronpaint",
   "version": "0.1.0",
   "description": "Painting with ElectronJS",
